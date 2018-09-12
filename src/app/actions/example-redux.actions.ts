@@ -26,7 +26,7 @@ export class ExampleReduxActions {
    */
   getData(): void {
     const payload: ReduxGetPayload = {
-      url: '/assets/data.json',
+      url: 'assets/data.json',
       successAction: ExampleReduxActions.GET_DATA_SUCCESS
     };
 
