@@ -32,10 +32,7 @@ export class AppComponent {
       [ ...enhancers, devTool.isEnabled() ? devTool.enhancer() : f => f]);
 
     epicMiddleware.run(
-      generateEpics([
-        reduxHttpService.reduxGet,
-        reduxHttpService.reduxPost
-      ])
+      generateEpics(reduxHttpService)
     );
   }
 }
