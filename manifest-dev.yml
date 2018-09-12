@@ -1,0 +1,17 @@
+applications:
+- name: angular-starter
+  instances: 1
+  memory: 512MB
+  disk_quota: 512MB
+  buildpack: https://github.com/KaneFreeman/staticfile-buildpack.git#v1.4.30
+  env:
+    app_config: |
+      <script type="text/javascript">window["environment"] = {
+        production: false,
+        baseUrls: {
+          api: "https://api-dev.example.com"
+        },
+        app_dynamics: {
+          app_key: "[LOWER_APP_KEY]"
+        }
+      };</script>

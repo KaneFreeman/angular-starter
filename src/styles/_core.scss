@@ -1,0 +1,7 @@
+/* Initialize Application Core (Variables, Mixins, etc) */
+@import "variables";
+
+/* Initialize Bootstrap Core */
+@import "~bootstrap/scss/functions";
+@import "~bootstrap/scss/variables";
+@import "~bootstrap/scss/mixins";

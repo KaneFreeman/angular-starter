@@ -1,0 +1,13 @@
+h2 {
+  color: rgba(0, 0, 0, 0.62);
+
+  a {
+    color: rgb(14, 121, 196);
+    text-decoration: none;
+    opacity: 0.8;
+
+    &:hover {
+      opacity: 1;
+    }
+  }
+}

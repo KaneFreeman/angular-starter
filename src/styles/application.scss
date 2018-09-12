@@ -1,0 +1,11 @@
+/* Initialize Application Core (Variables, Mixins, etc) */
+@import "core";
+
+/* Initialize Bootstrap (non-component parts) */
+@import "bootstrap";
+
+/* Initialize Material */
+@import "md_theme";
+
+/* Custom global sass here */
+@import "common";

@@ -1,0 +1,19 @@
+{
+  "extends": "../tsconfig.json",
+  "compilerOptions": {
+    "outDir": "../out-tsc/app",
+    "module": "es2015",
+    "types": [
+      "node"
+    ]
+  },
+  "include":[
+    "./**/*.ts",
+    "../node_modules/angular-redux-util/index.ts",
+    "../node_modules/angular-redux-util/src/**/*.ts"
+  ],
+  "exclude": [
+    "src/test.ts",
+    "**/*.spec.ts"
+  ]
+}
