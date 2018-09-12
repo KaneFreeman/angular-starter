@@ -1,0 +1,3 @@
+pushstate: enabled
+ssi: enabled
+force_https: true
