@@ -1,4 +1,5 @@
 # angular-starter
+ [![DepShield Badge](https://depshield.sonatype.org/badges/KaneFreeman/angular-starter/depshield.svg)](https://depshield.github.io)
 
 An opinionated starter package for angular 6+. This package includes Redux, SASS, Material, and Bootstrap (utility only). This package utilizes the [angular-redux-util](https://github.com/KaneFreeman/angular-redux-util) library.
 
