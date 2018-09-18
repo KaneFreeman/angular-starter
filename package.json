@@ -7,7 +7,8 @@
     "build": "ng build --prod && gulp compress",
     "test": "ng test",
     "lint": "ng lint",
-    "e2e": "ng e2e"
+    "e2e": "ng e2e",
+    "gh-pages": "ng build --prod --base-href \"https://kanefreeman.github.io/angular-starter/\" && ngh --dir=dist/angular-starter"
   },
   "private": true,
   "dependencies": {
@@ -42,8 +43,8 @@
     "@types/jasmine": "2.8.8",
     "@types/jasminewd2": "2.0.3",
     "@types/node": "8.9.5",
-    "codelyzer": "4.2.1",
     "bootstrap": "4.1.3",
+    "codelyzer": "4.2.1",
     "gulp": "3.9.1",
     "gulp-gzip": "1.4.2",
     "jasmine-core": "2.99.1",

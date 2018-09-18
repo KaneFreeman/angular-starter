@@ -12,8 +12,6 @@ import { EnvironmentService } from '../services';
   styleUrls: ['./home.component.scss']
 })
 export class HomeComponent implements OnInit {
-  title = 'angular-starter';
-
   environment: any;
 
   @select(['exampleRedux', 'data']) data: Observable<string>;

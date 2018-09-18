@@ -18,7 +18,7 @@ export class ExampleReduxActions {
    * Increment the counter variable in the store
    */
   incrementCounter(): void {
-    this.ngRedux.dispatch(createAction(ExampleReduxActions.INCREMENT_COUNTER));
+    this.ngRedux.dispatch({ type: ExampleReduxActions.INCREMENT_COUNTER });
   }
 
   /**
@@ -30,6 +30,6 @@ export class ExampleReduxActions {
       successAction: ExampleReduxActions.GET_DATA_SUCCESS
     };
 
-    this.ngRedux.dispatch(createAction(REDUX_GET, payload));
+    this.ngRedux.dispatch({ type: REDUX_GET, payload });
   }
 }
