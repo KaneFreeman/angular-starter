@@ -451,9 +451,9 @@ amdefine@>=0.0.4:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/amdefine/-/amdefine-1.0.1.tgz#4a5282ac164729e93619bcfd3ad151f817ce91f5"
 
-angular-redux-util@2.0.0:
-  version "2.0.0"
-  resolved "https://registry.yarnpkg.com/angular-redux-util/-/angular-redux-util-2.0.0.tgz#0603980f33cbcac500d5595cd6f0ccc3dfa6e622"
+angular-redux-util@^3.0.0-alpha.2:
+  version "3.0.0-alpha.2"
+  resolved "https://registry.yarnpkg.com/angular-redux-util/-/angular-redux-util-3.0.0-alpha.2.tgz#0a6d4bd15643a29f2e96ed64e98082421de442c0"
   dependencies:
     tslib "^1.9.0"
 
