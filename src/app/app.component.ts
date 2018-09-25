@@ -2,7 +2,8 @@ import { Component } from '@angular/core';
 
 import { NgRedux, DevToolsExtension } from '@angular-redux/store';
 import { createEpicMiddleware } from 'redux-observable';
-import { generateEpics, ReduxHttpService } from 'angular-redux-util';
+import { generateEpics } from 'redux-observable-util';
+import { ReduxHttpService } from 'angular-redux-util';
 
 import { rootReducer } from './reducers';
 import { AppState, APP_INITIAL_STATE, middleware, enhancers } from './store';

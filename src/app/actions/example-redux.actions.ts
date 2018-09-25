@@ -1,7 +1,7 @@
 import { Injectable } from '@angular/core';
 import { NgRedux } from '@angular-redux/store';
 
-import { createAction, REDUX_GET, ReduxGetPayload } from 'angular-redux-util';
+import { REDUX_GET, ReduxGetAction } from 'angular-redux-util';
 
 import { AppState } from '../store';
 
@@ -25,11 +25,12 @@ export class ExampleReduxActions {
    * Make an HTTP Get call, store the response in the store
    */
   getData(): void {
-    const payload: ReduxGetPayload = {
+    const action: ReduxGetAction = {
+      type: REDUX_GET,
       url: 'assets/data.json',
       successAction: ExampleReduxActions.GET_DATA_SUCCESS
     };
 
-    this.ngRedux.dispatch({ type: REDUX_GET, payload });
+    this.ngRedux.dispatch(action);
   }
 }
