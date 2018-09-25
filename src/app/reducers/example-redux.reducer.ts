@@ -1,4 +1,5 @@
-import { assign, ReduxHttpSuccessAction } from 'angular-redux-util';
+import { assign } from 'redux-observable-util';
+import { ReduxHttpSuccessAction } from 'angular-redux-util';
 
 import { ExampleReduxActions } from '../actions';
 import { ExampleReduxState, EXAMPLE_REDUX_INITIAL_STATE } from '../store';
